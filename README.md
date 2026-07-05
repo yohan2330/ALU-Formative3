@@ -40,8 +40,7 @@ Project/
 ├── data/
 │   ├── GaltonFamilies.csv
 │   └── IMDB Dataset.csv
-├── PDF_file/
-│   ├── contribution_tracker.pdf
+├── BSE Group Assignments _ Task Sheet_[Mathematics for ML_Formative 3_Cohort 3_Team17] - 1.pdf
 ```
  
 Parts 1, 2, and 4 are implemented in a single notebook to keep the statistical narrative and the code that produces it side by side, since each part builds on the same modeling habits (defining a small set of reusable functions, then calling them repeatedly). Part 3 is submitted as a separate handwritten PDF, as required.
