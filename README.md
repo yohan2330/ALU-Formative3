@@ -217,10 +217,10 @@ pip install numpy pandas scipy matplotlib
  
 | Member | Contribution |
 |---|---|
-| Reine Ella Dusenayo | |
-| Steven Kayitare | |
-| Moaye Morel Yohan Kouame | |
-| Allan Tumusime | |
+| Reine Ella Dusenayo | Part 4 & Part 3 |
+| Steven Kayitare | Part 1 & Part 3 |
+| Moaye Morel Yohan Kouame | Part 2 & Part 3 |
+| Allan Tumusime | Part 4 & part 3 |
  
 A detailed breakdown of individual contributions is included in the separate contributions PDF submitted alongside this repository. All members contributed to the implementation and are prepared to present and answer questions on every part of the project.
  
