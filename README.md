@@ -6,6 +6,7 @@
 - Steven Kayitare
 - Moaye Morel Yohan Kouame
 - Allan Tumusime
+
 African Leadership University
 BSE - Machine Learning
 Mathematics for Machine Learning
@@ -167,7 +168,8 @@ Convert the manual gradient descent process into working Python code, using SciP
 - Used SciPy's approx_fprime to compute the gradient of the cost function with respect to m and b at each iteration.
 - Updated the parameters using the gradient and a fixed learning rate, printing every intermediate value (predictions, errors, MSE, and gradient) at each step so no calculation is hidden.
 ### Results and Trend Observed
- 
+
+Across the four manual iterations, the MSE did not decrease — it grew substantially,
 With a learning rate of 0.1, the parameter updates grew rapidly rather than settling toward a minimum. The mean squared error rose from 61.0 at initialization to over 21 billion by the fourth iteration. This is a direct consequence of the chosen learning rate being too large for the scale of this data: each update overshoots the minimum by a wider margin than the previous one, so the error compounds instead of shrinking. This illustrates why the learning rate is one of the most sensitive hyperparameters in gradient descent, and why a smaller learning rate, or a normalization step on the input features, would be needed for this particular problem to converge. (In the background, we have found that the learning rate of 0.01 would be better to minimize the error)
  
 Two plots are included in the notebook: one tracking m1, m2, and b across iterations, and one tracking the mean squared error across the same iterations. Both visibly show the divergence described above.
