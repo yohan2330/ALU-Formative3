@@ -34,8 +34,7 @@ Project/
 ├── Codes/
 │   └── Formative_3_Probability_Distributions_Bayesian_Probability_and_Gradient_Descent_Implementation.ipynb
 |
-├── Part3/
-│   └── Manual_Gradient_Descent.pdf
+├── Manual_Gradient_Descent.pdf
 |
 ├── data/
 │   ├── GaltonFamilies.csv
